@@ -28,3 +28,7 @@ adafruit_atmel_ice.protocol=cmsis-dap
 adafruit_atmel_ice.program.protocol=cmsis-dap
 adafruit_atmel_ice.program.tool=openocd
 adafruit_atmel_ice.program.setup_command=cmsis_dap_vid_pid 0x03eb 0x2141; transport select swd;
+
+arduinoOTA104.name=Arduino OTA (192.168.43.173)
+arduinoOTA104.program.tool=arduinoOTA
+arduinoOTA104.ip=192.168.43.173
