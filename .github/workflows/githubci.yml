@@ -26,12 +26,12 @@ jobs:
     
     steps:
     - name: Setup Python
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
         
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         submodules: 'true'
 
@@ -62,4 +62,4 @@ jobs:
         arduino-cli lib install "Adafruit NeoPixel" "Adafruit seesaw Library" "Adafruit SPIFlash" "FlashStorage" "MIDI Library" "SD" "SdFat - Adafruit Fork"
 
     - name: Build examples
-      run: python3 extras/build_all.py ${{ matrix.board }}
+      run: python3 tools/build_all.py ${{ matrix.board }}
