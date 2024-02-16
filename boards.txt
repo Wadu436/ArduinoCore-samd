@@ -2338,7 +2338,7 @@ adafruit_matrixportal_m4.menu.debug.on.build.flags.debug=-g
 # --------------------
 # Arduino NANO 33 IoT
 # --------------------
-nano_33_iot.name=Arduino NANO 33 IoT
+nano_33_iot.name=Arduino NANO 33 IoT (Adafruit)
 nano_33_iot.vid.0=0x2341
 nano_33_iot.pid.0=0x8057
 nano_33_iot.vid.1=0x2341
